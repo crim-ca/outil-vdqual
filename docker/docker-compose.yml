@@ -1,0 +1,27 @@
+version: "3.4"
+
+services:
+  emotions:
+    image: vdqual_emotion
+    build: 
+      context: ../vdqual-outil/emotions
+      dockerfile: emotion.dockerfile
+    container_name: vdqual_emotion_app
+    ports:
+      - "5007:5007"
+    volumes:
+        - /path/to/model:/path/to/model
+
+  outil:
+    image: vdqual_outil
+    build: 
+      context: ../vdqual-outil
+      dockerfile: outil.dockerfile
+    container_name: vdqual_outil_app
+    ports:
+      - "5008:5008"
+    depends_on:
+      - emotions
+
+    environment:
+      - EMOTION_SERVICE=http://emotions:5007/predict

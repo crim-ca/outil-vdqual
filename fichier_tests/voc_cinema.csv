@@ -1,0 +1,72 @@
+SOURCE	TERM_EN	TERM_FR
+Voc_cinema	actor	acteur
+Voc_cinema	actress	actrice
+Voc_cinema	Shooting angle	Angle de prise de vue
+Voc_cinema	Soundtrack	Bande sonore
+Voc_cinema	Sound effects	Bruitage
+Voc_cinema	Frame	Cadre
+Voc_cinema	Frame	cadrer
+Voc_cinema	clap	Clap
+Voc_cinema	Camera	Caméra
+Voc_cinema	Subjective camera	Caméra subjective
+Voc_cinema	Field	Champ
+Voc_cinema	Filmmaker	Cinéaste
+Voc_cinema	low angle shot	Contre-plongée
+Voc_cinema	reverse shot	Contre-champ
+Voc_cinema	reverse shot	Contrechamp
+Voc_cinema	Decor	Décor
+Voc_cinema	Cutting	Découpage
+Voc_cinema	Dialogue	Dialogue
+Voc_cinema	Dubbing	Doublage
+Voc_cinema	Plan scale	Échelle des plans
+Voc_cinema	Plan scale	Échelle des plans
+Voc_cinema	Special effects	Effets spéciaux
+Voc_cinema	extra	Figurant
+Voc_cinema	Extra	Figurante
+Voc_cinema	dissolve	Fondu
+Termium	fade-in	ouverture en fondu
+Termium	crossfade	faire un fondu enchaîné
+Termium	fade out	Fondu au noir
+Voc_cinema	fade to black	Fondu au noir
+Termium	fade up from white	ouvrir en fondu sur fond blanc
+Voc_cinema	Generic	Générique
+Voc_cinema	Big plan	Gros plan
+Voc_cinema	Offscreen	Hors champ
+Voc_cinema	Offscreen	Hors-champ
+Voc_cinema	Offscreen	Hors-cadre
+Voc_cinema	Offscreen	Hors cadre
+Voc_cinema	Footage	Métrage
+Voc_cinema	Mixing	Mixage
+Voc_cinema	Assembly	Montage
+Voc_cinema	Goal	Objectif
+Voc_cinema	Film	Pellicule
+Voc_cinema	Boom	Perche
+Voc_cinema	Plan	Plan
+Voc_cinema	A close-up	Plan rapproché
+Voc_cinema	Sequence shot	Plan séquence
+Voc_cinema	Dive	Plongée
+Voc_cinema	Depth of field	Profondeur de champ
+Voc_cinema	Slow motion	Ralenti
+Voc_cinema	Script	Scénario
+Voc_cinema	Stage	Scène
+Voc_cinema	scene	Scène
+Voc_cinema	Sequence	Séquence
+Voc_cinema	Synopsis	Synopsis
+Voc_cinema	Technicolor	Technicolor
+Termium	dolly in	travelling avant
+Voc_cinema	Zoom	Zoom
+Termium	setting	décor
+Termium	special effects	trucages
+Termium	filmmaker	cinéaste
+Termium	postsynchronization	post-synchronisation
+Voc_cinema	blocking 	cadrage
+Termium	director	réalisateur
+Voc_cinema	framing	cadrage
+Voc_cinema	film	film
+Voc_cinema	films	filme
+Voc_cinema	film	filmer
+Voc_cinema	shoot on	tourné en
+Voc_cinema	shooting on	tournage en
+Voc_cinema	shooting in	tournage en
+Voc_cinema	shoot with	tourner en
+Voc_cinema	screen	écran

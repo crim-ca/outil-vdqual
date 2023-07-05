@@ -1,0 +1,4825 @@
+{
+    "documents": [
+        {
+            "features": {
+                "cinema": [
+                    {
+                        "token": {
+                            "offset_end": 4,
+                            "offset_start": 0,
+                            "text": "Zoom"
+                        }
+                    }
+                ],
+                "coref": [],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 5,
+                        "offset": {
+                            "end": 21,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 0,
+            "text": "Zoom sur une feuille."
+        },
+        {
+            "features": {
+                "cinema": [
+                    {
+                        "token": {
+                            "offset_end": 11,
+                            "offset_start": 4,
+                            "text": "actrice"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 26,
+                            "offset_start": 21,
+                            "text": "scène"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 40,
+                            "offset_start": 32,
+                            "text": "actrices"
+                        }
+                    }
+                ],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 40,
+                            "offset_start": 32,
+                            "ref_id_chain": 0,
+                            "text": "actrices",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 43,
+                            "offset_start": 41,
+                            "ref_id_chain": 0,
+                            "text": "se",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 6,
+                                "offset_end": 16,
+                                "offset_start": 12,
+                                "text": "joue"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 6,
+                        "offset": {
+                            "end": 27,
+                            "start": 0
+                        },
+                        "warning": 0
+                    },
+                    {
+                        "id": 1,
+                        "num_words": 5,
+                        "offset": {
+                            "end": 52,
+                            "start": 28
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 1,
+            "text": "Une actrice joue une scène. Des actrices se saluent."
+        },
+        {
+            "features": {
+                "cinema": [
+                    {
+                        "token": {
+                            "offset_end": 11,
+                            "offset_start": 4,
+                            "text": "caméras"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 35,
+                            "offset_start": 30,
+                            "text": "écran"
+                        }
+                    }
+                ],
+                "coref": [],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 8,
+                        "offset": {
+                            "end": 36,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 2,
+            "text": "Les caméras sont visibles à l'écran."
+        },
+        {
+            "features": {
+                "cinema": [
+                    {
+                        "token": {
+                            "offset_end": 9,
+                            "offset_start": 3,
+                            "text": "caméra"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 38,
+                            "offset_start": 32,
+                            "text": "caméra"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 61,
+                            "offset_start": 55,
+                            "text": "caméra"
+                        }
+                    }
+                ],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 9,
+                            "offset_start": 3,
+                            "ref_id_chain": 1,
+                            "text": "caméra",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 12,
+                            "offset_start": 10,
+                            "ref_id_chain": 1,
+                            "text": "se",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 61,
+                            "offset_start": 55,
+                            "ref_id_chain": 2,
+                            "text": "caméra",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 64,
+                            "offset_start": 62,
+                            "ref_id_chain": 2,
+                            "text": "se",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 16,
+                                "offset_end": 74,
+                                "offset_start": 65,
+                                "text": "rapproche"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 16,
+                                "offset_end": 22,
+                                "offset_start": 13,
+                                "text": "rapproche"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 5,
+                        "offset": {
+                            "end": 23,
+                            "start": 0
+                        },
+                        "warning": 0
+                    },
+                    {
+                        "id": 1,
+                        "num_words": 5,
+                        "offset": {
+                            "end": 46,
+                            "start": 24
+                        },
+                        "warning": 0
+                    },
+                    {
+                        "id": 2,
+                        "num_words": 5,
+                        "offset": {
+                            "end": 74,
+                            "start": 47
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 3,
+            "text": "La caméra se rapproche. Puis la caméra recule. Puis la caméra se rapproche"
+        },
+        {
+            "features": {
+                "cinema": [
+                    {
+                        "token": {
+                            "offset_end": 20,
+                            "offset_start": 14,
+                            "text": "caméra"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 29,
+                            "offset_start": 24,
+                            "text": "filme"
+                        }
+                    }
+                ],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 4,
+                            "offset_start": 0,
+                            "ref_id_chain": 3,
+                            "text": "Paul",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 13,
+                            "offset_start": 11,
+                            "ref_id_chain": 3,
+                            "text": "sa",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 32,
+                            "offset_start": 30,
+                            "ref_id_chain": 3,
+                            "text": "sa",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 10,
+                        "offset": {
+                            "end": 46,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 4,
+            "text": "Paul prend sa caméra et filme sa grande soeur."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 6,
+                                "offset_end": 18,
+                                "offset_start": 12,
+                                "text": "jouent"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 7,
+                        "offset": {
+                            "end": 32,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 5,
+            "text": "Les enfants jouent dans la cour."
+        },
+        {
+            "features": {
+                "cinema": [
+                    {
+                        "token": {
+                            "offset_end": 13,
+                            "offset_start": 0,
+                            "text": "Fondu au noir"
+                        }
+                    }
+                ],
+                "coref": [],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 5,
+                        "offset": {
+                            "end": 14,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 6,
+            "text": "Fondu au noir."
+        },
+        {
+            "features": {
+                "cinema": [
+                    {
+                        "token": {
+                            "offset_end": 8,
+                            "offset_start": 3,
+                            "text": "scène"
+                        }
+                    }
+                ],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 8,
+                            "offset_start": 3,
+                            "ref_id_chain": 4,
+                            "text": "scène",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 11,
+                            "offset_start": 9,
+                            "ref_id_chain": 4,
+                            "text": "se",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 5,
+                        "offset": {
+                            "end": 20,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 7,
+            "text": "La scène se termine."
+        },
+        {
+            "features": {
+                "cinema": [
+                    {
+                        "token": {
+                            "offset_end": 7,
+                            "offset_start": 3,
+                            "text": "film"
+                        }
+                    }
+                ],
+                "coref": [],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 4,
+                        "offset": {
+                            "end": 17,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 8,
+            "text": "Le film commence."
+        },
+        {
+            "features": {
+                "cinema": [
+                    {
+                        "token": {
+                            "offset_end": 11,
+                            "offset_start": 0,
+                            "text": "Tournage en"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 17,
+                            "offset_start": 12,
+                            "text": "décor"
+                        }
+                    }
+                ],
+                "coref": [],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 5,
+                        "offset": {
+                            "end": 26,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 9,
+            "text": "Tournage en décor naturel."
+        },
+        {
+            "features": {
+                "cinema": [
+                    {
+                        "token": {
+                            "offset_end": 7,
+                            "offset_start": 3,
+                            "text": "film"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 21,
+                            "offset_start": 12,
+                            "text": "tourné en"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 28,
+                            "offset_start": 22,
+                            "text": "caméra"
+                        }
+                    }
+                ],
+                "coref": [],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 9,
+                        "offset": {
+                            "end": 37,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 10,
+            "text": "Le film est tourné en caméra super 8."
+        },
+        {
+            "features": {
+                "cinema": [
+                    {
+                        "token": {
+                            "offset_end": 9,
+                            "offset_start": 3,
+                            "text": "perche"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 27,
+                            "offset_start": 22,
+                            "text": "champ"
+                        }
+                    }
+                ],
+                "coref": [],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 7,
+                        "offset": {
+                            "end": 28,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 11,
+            "text": "La perche est dans le champ."
+        },
+        {
+            "features": {
+                "cinema": [
+                    {
+                        "token": {
+                            "offset_end": 30,
+                            "offset_start": 25,
+                            "text": "champ"
+                        }
+                    }
+                ],
+                "coref": [],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 7,
+                        "offset": {
+                            "end": 31,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 12,
+            "text": "Une vache broute dans un champ."
+        },
+        {
+            "features": {
+                "cinema": [
+                    {
+                        "token": {
+                            "offset_end": 33,
+                            "offset_start": 27,
+                            "text": "champs"
+                        }
+                    }
+                ],
+                "coref": [],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 6,
+                        "offset": {
+                            "end": 34,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 13,
+            "text": "Les fleurs envahissent les champs."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 4,
+                            "offset_start": 0,
+                            "ref_id_chain": 5,
+                            "text": "Paul",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 23,
+                            "offset_start": 21,
+                            "ref_id_chain": 5,
+                            "text": "Il",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 6,
+                        "offset": {
+                            "end": 20,
+                            "start": 0
+                        },
+                        "warning": 0
+                    },
+                    {
+                        "id": 1,
+                        "num_words": 4,
+                        "offset": {
+                            "end": 38,
+                            "start": 21
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 14,
+            "text": "Paul est au travail. Il semble épuisé."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 2,
+                            "offset_start": 0,
+                            "ref_id_chain": 5,
+                            "text": "Il",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 8,
+                        "offset": {
+                            "end": 39,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 15,
+            "text": "Il ferme les yeux à plusieurs reprises."
+        },
+        {
+            "features": {
+                "cinema": [
+                    {
+                        "token": {
+                            "offset_end": 87,
+                            "offset_start": 82,
+                            "text": "écran"
+                        }
+                    }
+                ],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 2,
+                            "offset_start": 0,
+                            "ref_id_chain": 5,
+                            "text": "Il",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 10,
+                            "offset_start": 8,
+                            "ref_id_chain": 5,
+                            "text": "sa",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 23,
+                            "offset_start": 20,
+                            "ref_id_chain": 5,
+                            "text": "son",
+                            "warning": 1
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 81,
+                            "offset_start": 78,
+                            "ref_id_chain": 5,
+                            "text": "Son",
+                            "warning": 1
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 87,
+                            "offset_start": 82,
+                            "ref_id_chain": 6,
+                            "text": "écran",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 90,
+                            "offset_start": 88,
+                            "ref_id_chain": 6,
+                            "text": "se",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 18,
+                        "offset": {
+                            "end": 77,
+                            "start": 0
+                        },
+                        "warning": 0
+                    },
+                    {
+                        "id": 1,
+                        "num_words": 9,
+                        "offset": {
+                            "end": 122,
+                            "start": 78
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 16,
+            "text": "Il pose sa tête sur son bureau sans s’apercevoir qu’il y tape sur le clavier. Son écran se remplit de plein de caractères."
+        },
+        {
+            "features": {
+                "cinema": [
+                    {
+                        "token": {
+                            "offset_end": 45,
+                            "offset_start": 40,
+                            "text": "écran"
+                        }
+                    }
+                ],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 5,
+                            "offset_start": 3,
+                            "ref_id_chain": 7,
+                            "text": "se",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 29,
+                            "offset_start": 27,
+                            "ref_id_chain": 5,
+                            "text": "Il",
+                            "warning": 1
+                        }
+                    }
+                ],
+                "emotions": [
+                    {
+                        "token": {
+                            "offset_end": 26,
+                            "offset_start": 3,
+                            "text": "se réveille en sursaut.",
+                            "type": "action",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 59,
+                            "offset_start": 30,
+                            "text": "regarde l’écran avec horreur.",
+                            "type": "action",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 6,
+                        "offset": {
+                            "end": 26,
+                            "start": 0
+                        },
+                        "warning": 0
+                    },
+                    {
+                        "id": 1,
+                        "num_words": 7,
+                        "offset": {
+                            "end": 59,
+                            "start": 27
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 17,
+            "text": "Il se réveille en sursaut. Il regarde l’écran avec horreur."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 3,
+                        "offset": {
+                            "end": 13,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 18,
+            "text": "Steve arrive."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 4,
+                            "offset_start": 0,
+                            "ref_id_chain": 7,
+                            "text": "Elle",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 25,
+                            "offset_start": 20,
+                            "ref_id_chain": 8,
+                            "text": "forêt",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 75,
+                                "offset_end": 11,
+                                "offset_start": 5,
+                                "text": "marche"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 79,
+                                "offset_end": 51,
+                                "offset_start": 44,
+                                "text": "arrêter"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 6,
+                        "offset": {
+                            "end": 26,
+                            "start": 0
+                        },
+                        "warning": 0
+                    },
+                    {
+                        "id": 1,
+                        "num_words": 5,
+                        "offset": {
+                            "end": 51,
+                            "start": 27
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 19,
+            "text": "Elle marche dans la forêt. Un bruit la fait arrêter"
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 4,
+                            "offset_start": 0,
+                            "ref_id_chain": 8,
+                            "text": "Elle",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 24,
+                            "offset_start": 20,
+                            "ref_id_chain": 8,
+                            "text": "elle",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 27,
+                            "offset_start": 25,
+                            "ref_id_chain": 8,
+                            "text": "s'",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 79,
+                                "offset_end": 33,
+                                "offset_start": 27,
+                                "text": "arrête"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 3,
+                        "offset": {
+                            "end": 14,
+                            "start": 0
+                        },
+                        "warning": 0
+                    },
+                    {
+                        "id": 1,
+                        "num_words": 5,
+                        "offset": {
+                            "end": 34,
+                            "start": 15
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 20,
+            "text": "Elle remarche. Puis elle s'arrête."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 16,
+                            "offset_start": 12,
+                            "ref_id_chain": 8,
+                            "text": "elle",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 40,
+                            "offset_start": 36,
+                            "ref_id_chain": 8,
+                            "text": "elle",
+                            "warning": 1
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 55,
+                            "offset_start": 51,
+                            "ref_id_chain": 8,
+                            "text": "Elle",
+                            "warning": 1
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 80,
+                            "offset_start": 76,
+                            "ref_id_chain": 8,
+                            "text": "elle",
+                            "warning": 1
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 92,
+                            "offset_start": 88,
+                            "ref_id_chain": 8,
+                            "text": "elle",
+                            "warning": 1
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 95,
+                            "offset_start": 93,
+                            "ref_id_chain": 8,
+                            "text": "s'",
+                            "warning": 1
+                        }
+                    }
+                ],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 75,
+                                "offset_end": 62,
+                                "offset_start": 56,
+                                "text": "marche"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 83,
+                                "offset_end": 23,
+                                "offset_start": 17,
+                                "text": "entend"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 81,
+                                "offset_end": 4,
+                                "offset_start": 0,
+                                "text": "Tout"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 86,
+                                "offset_end": 84,
+                                "offset_start": 81,
+                                "text": "rit"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [
+                    {
+                        "token": {
+                            "offset_end": 84,
+                            "offset_start": 81,
+                            "text": "rit",
+                            "type": "action",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 11,
+                        "offset": {
+                            "end": 50,
+                            "start": 0
+                        },
+                        "warning": 0
+                    },
+                    {
+                        "id": 1,
+                        "num_words": 12,
+                        "offset": {
+                            "end": 102,
+                            "start": 51
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 21,
+            "text": "Tout à coup elle entend un bruit et elle fredonne. Elle marche à nouveau et elle rit et elle s'arrete."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 16,
+                            "offset_start": 12,
+                            "ref_id_chain": 8,
+                            "text": "elle",
+                            "warning": 1
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 24,
+                            "offset_start": 22,
+                            "ref_id_chain": 8,
+                            "text": "Sa",
+                            "warning": 1
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 49,
+                            "offset_start": 45,
+                            "ref_id_chain": 8,
+                            "text": "elle",
+                            "warning": 1
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 62,
+                            "offset_start": 60,
+                            "ref_id_chain": 8,
+                            "text": "s'",
+                            "warning": 1
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 92,
+                            "offset_start": 88,
+                            "ref_id_chain": 8,
+                            "text": "elle",
+                            "warning": 1
+                        }
+                    }
+                ],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 81,
+                                "offset_end": 80,
+                                "offset_start": 76,
+                                "text": "tout"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 86,
+                                "offset_end": 20,
+                                "offset_start": 17,
+                                "text": "rit"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 75,
+                                "offset_end": 117,
+                                "offset_start": 110,
+                                "text": "marcher"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 81,
+                                "offset_end": 4,
+                                "offset_start": 0,
+                                "text": "Tout"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 79,
+                                "offset_end": 69,
+                                "offset_start": 62,
+                                "text": "arrêter"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 83,
+                                "offset_end": 99,
+                                "offset_start": 93,
+                                "text": "entend"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [
+                    {
+                        "token": {
+                            "offset_end": 21,
+                            "offset_start": 17,
+                            "text": "rit.",
+                            "type": "action",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 6,
+                        "offset": {
+                            "end": 21,
+                            "start": 0
+                        },
+                        "warning": 0
+                    },
+                    {
+                        "id": 1,
+                        "num_words": 11,
+                        "offset": {
+                            "end": 70,
+                            "start": 22
+                        },
+                        "warning": 0
+                    },
+                    {
+                        "id": 2,
+                        "num_words": 9,
+                        "offset": {
+                            "end": 118,
+                            "start": 71
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 22,
+            "text": "Tout à coup elle rit. Sa marche est lente et elle finit par s'arrêter. Mais tout à coup elle entend quelqu'un marcher."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 7,
+                            "offset_start": 3,
+                            "ref_id_chain": 8,
+                            "text": "elle",
+                            "warning": 1
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 58,
+                            "offset_start": 54,
+                            "ref_id_chain": 8,
+                            "text": "elle",
+                            "warning": 1
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 61,
+                            "offset_start": 59,
+                            "ref_id_chain": 8,
+                            "text": "s'",
+                            "warning": 1
+                        }
+                    }
+                ],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 94,
+                                "offset_end": 37,
+                                "offset_start": 32,
+                                "text": "court"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 94,
+                                "offset_end": 13,
+                                "offset_start": 8,
+                                "text": "court"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 75,
+                                "offset_end": 47,
+                                "offset_start": 41,
+                                "text": "marche"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 79,
+                                "offset_end": 67,
+                                "offset_start": 61,
+                                "text": "arrête"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 75,
+                                "offset_end": 26,
+                                "offset_start": 20,
+                                "text": "marche"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 11,
+                        "offset": {
+                            "end": 48,
+                            "start": 0
+                        },
+                        "warning": 0
+                    },
+                    {
+                        "id": 1,
+                        "num_words": 5,
+                        "offset": {
+                            "end": 68,
+                            "start": 49
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 23,
+            "text": "Et elle court, puis marche puis court et marche. Puis elle s'arrête."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 16,
+                            "offset_start": 12,
+                            "ref_id_chain": 9,
+                            "text": "elle",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 30,
+                            "offset_start": 26,
+                            "ref_id_chain": 9,
+                            "text": "elle",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 62,
+                            "offset_start": 58,
+                            "ref_id_chain": 9,
+                            "text": "elle",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 81,
+                            "offset_start": 76,
+                            "ref_id_chain": 10,
+                            "text": "Sonia",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 84,
+                            "offset_start": 82,
+                            "ref_id_chain": 10,
+                            "text": "s'",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 94,
+                                "offset_end": 52,
+                                "offset_start": 47,
+                                "text": "court"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 94,
+                                "offset_end": 36,
+                                "offset_start": 31,
+                                "text": "court"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 96,
+                                "offset_end": 21,
+                                "offset_start": 17,
+                                "text": "crie"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 81,
+                                "offset_end": 4,
+                                "offset_start": 0,
+                                "text": "Tout"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 75,
+                                "offset_end": 69,
+                                "offset_start": 63,
+                                "text": "marche"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 79,
+                                "offset_end": 90,
+                                "offset_start": 84,
+                                "text": "arrête"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 6,
+                        "offset": {
+                            "end": 22,
+                            "start": 0
+                        },
+                        "warning": 0
+                    },
+                    {
+                        "id": 1,
+                        "num_words": 11,
+                        "offset": {
+                            "end": 70,
+                            "start": 23
+                        },
+                        "warning": 0
+                    },
+                    {
+                        "id": 2,
+                        "num_words": 5,
+                        "offset": {
+                            "end": 91,
+                            "start": 71
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 24,
+            "text": "Tout à coup elle crie. Et elle court, et Sonia court puis elle marche. Puis Sonia s'arrête."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 94,
+                                "offset_end": 92,
+                                "offset_start": 86,
+                                "text": "courir"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 75,
+                                "offset_end": 79,
+                                "offset_start": 72,
+                                "text": "marcher"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 81,
+                                "offset_end": 16,
+                                "offset_start": 12,
+                                "text": "tous"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 96,
+                                "offset_end": 64,
+                                "offset_start": 59,
+                                "text": "crier"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 79,
+                                "offset_end": 41,
+                                "offset_start": 34,
+                                "text": "arrêter"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 14,
+                        "offset": {
+                            "end": 65,
+                            "start": 0
+                        },
+                        "warning": 0
+                    },
+                    {
+                        "id": 1,
+                        "num_words": 7,
+                        "offset": {
+                            "end": 93,
+                            "start": 66
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 25,
+            "text": "Intéressant tous ces pas, il faut arrêter de compter ou de crier. Ou de marcher ou de courir."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 56,
+                            "offset_start": 53,
+                            "ref_id_chain": 11,
+                            "text": "Est",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 67,
+                            "offset_start": 66,
+                            "ref_id_chain": 11,
+                            "text": "y",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 96,
+                                "offset_end": 29,
+                                "offset_start": 24,
+                                "text": "crier"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 86,
+                                "offset_end": 40,
+                                "offset_start": 36,
+                                "text": "rire"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 81,
+                                "offset_end": 95,
+                                "offset_start": 91,
+                                "text": "tout"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 75,
+                                "offset_end": 51,
+                                "offset_start": 44,
+                                "text": "marcher"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 13,
+                        "offset": {
+                            "end": 52,
+                            "start": 0
+                        },
+                        "warning": 0
+                    },
+                    {
+                        "id": 1,
+                        "num_words": 16,
+                        "offset": {
+                            "end": 104,
+                            "start": 53
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": [
+                    {
+                        "token": {
+                            "offset_end": 69,
+                            "offset_start": 68,
+                            "ref_token": [
+                                1,
+                                1
+                            ],
+                            "text": "a"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 72,
+                            "offset_start": 70,
+                            "ref_token": [
+                                1,
+                                1
+                            ],
+                            "text": "eu"
+                        }
+                    }
+                ]
+            },
+            "id": 26,
+            "text": "C'est assez étrange, de crier et de rire et marcher. Est-ce qu'il y a eu un coup ou est-ce tout à coup ?"
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 9,
+                            "offset_start": 3,
+                            "ref_id_chain": 12,
+                            "text": "bronze",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 28,
+                            "offset_start": 26,
+                            "ref_id_chain": 12,
+                            "text": "il",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 62,
+                            "offset_start": 59,
+                            "ref_id_chain": 12,
+                            "text": "son",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 19,
+                        "offset": {
+                            "end": 78,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 27,
+            "text": "Il bronze sur la plage et il n'entend rien, et pourtant ce son est si présent."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 5,
+                            "offset_start": 3,
+                            "ref_id_chain": 12,
+                            "text": "l'",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 39,
+                            "offset_start": 37,
+                            "ref_id_chain": 12,
+                            "text": "l'",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 75,
+                                "offset_end": 32,
+                                "offset_start": 26,
+                                "text": "marche"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 115,
+                                "offset_end": 44,
+                                "offset_start": 39,
+                                "text": "évite"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 115,
+                                "offset_end": 10,
+                                "offset_start": 5,
+                                "text": "évite"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 5,
+                        "offset": {
+                            "end": 22,
+                            "start": 0
+                        },
+                        "warning": 0
+                    },
+                    {
+                        "id": 1,
+                        "num_words": 3,
+                        "offset": {
+                            "end": 33,
+                            "start": 23
+                        },
+                        "warning": 0
+                    },
+                    {
+                        "id": 2,
+                        "num_words": 4,
+                        "offset": {
+                            "end": 45,
+                            "start": 34
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 28,
+            "text": "Il l'évite assurément. Il marche. Il l'évite."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 94,
+                                "offset_end": 14,
+                                "offset_start": 8,
+                                "text": "courir"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 117,
+                                "offset_end": 7,
+                                "offset_start": 3,
+                                "text": "peux"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 5,
+                        "offset": {
+                            "end": 15,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [
+                    {
+                        "token": {
+                            "offset_end": 2,
+                            "offset_start": 0,
+                            "text": "Tu"
+                        }
+                    }
+                ],
+                "tense_notpresent": []
+            },
+            "id": 29,
+            "text": "Tu peux courir."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 118,
+                                "offset_end": 12,
+                                "offset_start": 8,
+                                "text": "voir"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 117,
+                                "offset_end": 7,
+                                "offset_start": 3,
+                                "text": "peux"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 4,
+                        "offset": {
+                            "end": 12,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [
+                    {
+                        "token": {
+                            "offset_end": 2,
+                            "offset_start": 0,
+                            "text": "Tu"
+                        }
+                    }
+                ],
+                "tense_notpresent": []
+            },
+            "id": 30,
+            "text": "Tu peux voir"
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 117,
+                                "offset_end": 7,
+                                "offset_start": 3,
+                                "text": "peux"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 118,
+                                "offset_end": 12,
+                                "offset_start": 8,
+                                "text": "voir"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 8,
+                        "offset": {
+                            "end": 32,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [
+                    {
+                        "token": {
+                            "offset_end": 2,
+                            "offset_start": 0,
+                            "text": "Tu"
+                        }
+                    }
+                ],
+                "tense_notpresent": []
+            },
+            "id": 31,
+            "text": "Tu peux voir un paysage valloné."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 118,
+                                "offset_end": 12,
+                                "offset_start": 8,
+                                "text": "voir"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 5,
+                        "offset": {
+                            "end": 21,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [
+                    {
+                        "token": {
+                            "offset_end": 7,
+                            "offset_start": 4,
+                            "text": "-je"
+                        }
+                    }
+                ],
+                "tense_notpresent": []
+            },
+            "id": 32,
+            "text": "Puis-je voir la photo"
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 118,
+                                "offset_end": 12,
+                                "offset_start": 8,
+                                "text": "voir"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 5,
+                        "offset": {
+                            "end": 21,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [
+                    {
+                        "token": {
+                            "offset_end": 7,
+                            "offset_start": 4,
+                            "text": "-je"
+                        }
+                    }
+                ],
+                "tense_notpresent": []
+            },
+            "id": 33,
+            "text": "Vais-je voir la photo"
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 118,
+                                "offset_end": 12,
+                                "offset_start": 8,
+                                "text": "voir"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 117,
+                                "offset_end": 4,
+                                "offset_start": 0,
+                                "text": "Peux"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 6,
+                        "offset": {
+                            "end": 25,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [
+                    {
+                        "token": {
+                            "offset_end": 7,
+                            "offset_start": 4,
+                            "text": "-tu"
+                        }
+                    }
+                ],
+                "tense_notpresent": []
+            },
+            "id": 34,
+            "text": "Peux-tu voir le paysage ?"
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 6,
+                        "offset": {
+                            "end": 26,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [
+                    {
+                        "token": {
+                            "offset_end": 9,
+                            "offset_start": 0,
+                            "text": "Donne-moi"
+                        }
+                    }
+                ],
+                "tense_notpresent": []
+            },
+            "id": 35,
+            "text": "Donne-moi un coup de pied."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 22,
+                            "offset_start": 16,
+                            "ref_id_chain": 13,
+                            "text": "phoque",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 118,
+                                "offset_end": 12,
+                                "offset_start": 8,
+                                "text": "voit"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 10,
+                        "offset": {
+                            "end": 47,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [
+                    {
+                        "token": {
+                            "offset_end": 37,
+                            "offset_start": 34,
+                            "text": "tes"
+                        }
+                    }
+                ],
+                "tense_notpresent": []
+            },
+            "id": 36,
+            "text": "Toi qui voit un phoque, donne-moi tes jumelles."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 39,
+                            "offset_start": 31,
+                            "ref_id_chain": 14,
+                            "text": "jumelles",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 130,
+                                "offset_end": 26,
+                                "offset_start": 20,
+                                "text": "donnes"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 118,
+                                "offset_end": 10,
+                                "offset_start": 6,
+                                "text": "vois"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 10,
+                        "offset": {
+                            "end": 40,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [
+                    {
+                        "token": {
+                            "offset_end": 2,
+                            "offset_start": 0,
+                            "text": "Tu"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 5,
+                            "offset_start": 3,
+                            "text": "me"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 16,
+                            "offset_start": 14,
+                            "text": "tu"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 19,
+                            "offset_start": 17,
+                            "text": "me"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 30,
+                            "offset_start": 27,
+                            "text": "tes"
+                        }
+                    }
+                ],
+                "tense_notpresent": []
+            },
+            "id": 37,
+            "text": "Tu me vois et tu me donnes tes jumelles."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 21,
+                            "offset_start": 15,
+                            "ref_id_chain": 15,
+                            "text": "raison",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 4,
+                        "offset": {
+                            "end": 21,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [
+                    {
+                        "token": {
+                            "offset_end": 2,
+                            "offset_start": 0,
+                            "text": "Tu"
+                        }
+                    }
+                ],
+                "tense_notpresent": []
+            },
+            "id": 38,
+            "text": "Tu crois avoir raison"
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 2,
+                            "offset_start": 0,
+                            "ref_id_chain": 13,
+                            "text": "Il",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 6,
+                        "offset": {
+                            "end": 26,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [
+                    {
+                        "token": {
+                            "offset_end": 7,
+                            "offset_start": 3,
+                            "text": "nous"
+                        }
+                    }
+                ],
+                "tense_notpresent": []
+            },
+            "id": 39,
+            "text": "Il nous montre le tableau."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 8,
+                            "offset_start": 4,
+                            "ref_id_chain": 14,
+                            "text": "leur",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 7,
+                        "offset": {
+                            "end": 25,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 40,
+            "text": "Ils leur tendent du pain."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 4,
+                            "offset_start": 0,
+                            "ref_id_chain": 15,
+                            "text": "Elle",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 26,
+                            "offset_start": 21,
+                            "ref_id_chain": 16,
+                            "text": "livre",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 130,
+                                "offset_end": 17,
+                                "offset_start": 12,
+                                "text": "donné"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 7,
+                        "offset": {
+                            "end": 27,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [
+                    {
+                        "token": {
+                            "offset_end": 9,
+                            "offset_start": 5,
+                            "text": "nous"
+                        }
+                    }
+                ],
+                "tense_notpresent": [
+                    {
+                        "token": {
+                            "offset_end": 11,
+                            "offset_start": 10,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "a"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 17,
+                            "offset_start": 12,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "donné"
+                        }
+                    }
+                ]
+            },
+            "id": 41,
+            "text": "Elle nous a donné un livre."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 8,
+                            "offset_start": 5,
+                            "ref_id_chain": 16,
+                            "text": "lui",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 6,
+                        "offset": {
+                            "end": 25,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [
+                    {
+                        "token": {
+                            "offset_end": 4,
+                            "offset_start": 0,
+                            "text": "Vous"
+                        }
+                    }
+                ],
+                "tense_notpresent": []
+            },
+            "id": 42,
+            "text": "Vous lui offrez un livre."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 118,
+                                "offset_end": 12,
+                                "offset_start": 8,
+                                "text": "voir"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 117,
+                                "offset_end": 7,
+                                "offset_start": 3,
+                                "text": "peux"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 8,
+                        "offset": {
+                            "end": 32,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [
+                    {
+                        "token": {
+                            "offset_end": 2,
+                            "offset_start": 0,
+                            "text": "Tu"
+                        }
+                    }
+                ],
+                "tense_notpresent": []
+            },
+            "id": 43,
+            "text": "Tu peux voir un paysage valloné."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 23,
+                            "offset_start": 16,
+                            "ref_id_chain": 17,
+                            "text": "paysage",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 117,
+                                "offset_end": 4,
+                                "offset_start": 0,
+                                "text": "Peux"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 118,
+                                "offset_end": 12,
+                                "offset_start": 8,
+                                "text": "voir"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 6,
+                        "offset": {
+                            "end": 25,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [
+                    {
+                        "token": {
+                            "offset_end": 7,
+                            "offset_start": 4,
+                            "text": "-tu"
+                        }
+                    }
+                ],
+                "tense_notpresent": []
+            },
+            "id": 44,
+            "text": "Peux-tu voir le paysage ?"
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 118,
+                                "offset_end": 7,
+                                "offset_start": 3,
+                                "text": "vois"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 7,
+                        "offset": {
+                            "end": 24,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [
+                    {
+                        "token": {
+                            "offset_end": 2,
+                            "offset_start": 0,
+                            "text": "Tu"
+                        }
+                    }
+                ],
+                "tense_notpresent": []
+            },
+            "id": 45,
+            "text": "Tu vois des gens courir."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 10,
+                            "offset_start": 7,
+                            "ref_id_chain": 17,
+                            "text": "lui",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 11,
+                        "offset": {
+                            "end": 48,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 46,
+            "text": "Pépino lui tend une photo de classe de l'époque."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 5,
+                            "offset_start": 0,
+                            "ref_id_chain": 18,
+                            "text": "Elles",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 8,
+                            "offset_start": 6,
+                            "ref_id_chain": 18,
+                            "text": "se",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 28,
+                            "offset_start": 25,
+                            "ref_id_chain": 17,
+                            "text": "lui",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 6,
+                        "offset": {
+                            "end": 29,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 47,
+            "text": "Elles se retournent vers lui."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [],
+                "emotions": [
+                    {
+                        "token": {
+                            "offset_end": 38,
+                            "offset_start": 18,
+                            "text": "fait un clin d'oeil.",
+                            "type": "action",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 9,
+                        "offset": {
+                            "end": 38,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [
+                    {
+                        "token": {
+                            "offset_end": 17,
+                            "offset_start": 13,
+                            "text": "nous"
+                        }
+                    }
+                ],
+                "tense_notpresent": []
+            },
+            "id": 48,
+            "text": "Le personage nous fait un clin d'oeil."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 8,
+                            "offset_start": 3,
+                            "ref_id_chain": 19,
+                            "text": "femme",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 23,
+                            "offset_start": 20,
+                            "ref_id_chain": 19,
+                            "text": "son",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 7,
+                        "offset": {
+                            "end": 29,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 49,
+            "text": "La femme descend de son vélo."
+        },
+        {
+            "features": {
+                "cinema": [
+                    {
+                        "token": {
+                            "offset_end": 45,
+                            "offset_start": 40,
+                            "text": "écran"
+                        }
+                    }
+                ],
+                "coref": [],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 9,
+                        "offset": {
+                            "end": 46,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [
+                    {
+                        "token": {
+                            "offset_end": 4,
+                            "offset_start": 0,
+                            "text": "Nous"
+                        }
+                    }
+                ],
+                "tense_notpresent": []
+            },
+            "id": 50,
+            "text": "Nous voyons apparaître un dinosaure à l'écran."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 6,
+                            "offset_start": 0,
+                            "ref_id_chain": 20,
+                            "text": "Jeanne",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 35,
+                            "offset_start": 33,
+                            "ref_id_chain": 20,
+                            "text": "s'",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 9,
+                        "offset": {
+                            "end": 43,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 51,
+            "text": "Jeanne qui recoit un coup de fil s'approche"
+        },
+        {
+            "features": {
+                "cinema": [
+                    {
+                        "token": {
+                            "offset_end": 46,
+                            "offset_start": 40,
+                            "text": "figure"
+                        }
+                    }
+                ],
+                "coref": [],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 10,
+                        "offset": {
+                            "end": 57,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 52,
+            "text": "Jeanne observe le passeport dans lequel figure une photo."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [],
+                "emotions": [
+                    {
+                        "token": {
+                            "offset_end": 34,
+                            "offset_start": 18,
+                            "text": "sont hypnotisés.",
+                            "type": "state",
+                            "warning": 1
+                        }
+                    }
+                ],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 6,
+                        "offset": {
+                            "end": 34,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 53,
+            "text": "Astérix et Obélix sont hypnotisés."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 23,
+                            "offset_start": 18,
+                            "ref_id_chain": 21,
+                            "text": "passé",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 5,
+                        "offset": {
+                            "end": 24,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 54,
+            "text": "Flashback dans le passé."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 6,
+                        "offset": {
+                            "end": 29,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": [
+                    {
+                        "token": {
+                            "offset_end": 12,
+                            "offset_start": 4,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "jouaient"
+                        }
+                    }
+                ]
+            },
+            "id": 55,
+            "text": "Ils jouaient de la cornemuse."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 2,
+                            "offset_start": 0,
+                            "ref_id_chain": 21,
+                            "text": "Il",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 168,
+                                "offset_end": 5,
+                                "offset_start": 3,
+                                "text": "va"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 6,
+                        "offset": {
+                            "end": 25,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": [
+                    {
+                        "token": {
+                            "offset_end": 5,
+                            "offset_start": 3,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "va"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 12,
+                            "offset_start": 6,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "sauter"
+                        }
+                    }
+                ]
+            },
+            "id": 56,
+            "text": "Il va sauter dans le vide"
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 168,
+                                "offset_end": 15,
+                                "offset_start": 10,
+                                "text": "allée"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 8,
+                        "offset": {
+                            "end": 37,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": [
+                    {
+                        "token": {
+                            "offset_end": 9,
+                            "offset_start": 6,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "est"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 15,
+                            "offset_start": 10,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "allée"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 22,
+                            "offset_start": 16,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "manger"
+                        }
+                    }
+                ]
+            },
+            "id": 57,
+            "text": "Éléna est allée manger au restaurant."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 2,
+                            "offset_start": 0,
+                            "ref_id_chain": 21,
+                            "text": "Il",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 6,
+                        "offset": {
+                            "end": 26,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": [
+                    {
+                        "token": {
+                            "offset_end": 9,
+                            "offset_start": 3,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "aurait"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 13,
+                            "offset_start": 10,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "été"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 25,
+                            "offset_start": 19,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "embêté"
+                        }
+                    }
+                ]
+            },
+            "id": 58,
+            "text": "Il aurait été bien embêté."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 2,
+                            "offset_start": 0,
+                            "ref_id_chain": 21,
+                            "text": "Il",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 176,
+                                "offset_end": 24,
+                                "offset_start": 18,
+                                "text": "ennuyé"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 117,
+                                "offset_end": 12,
+                                "offset_start": 10,
+                                "text": "pu"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 6,
+                        "offset": {
+                            "end": 25,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": [
+                    {
+                        "token": {
+                            "offset_end": 9,
+                            "offset_start": 3,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "aurait"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 12,
+                            "offset_start": 10,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "pu"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 24,
+                            "offset_start": 18,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "ennuyé"
+                        }
+                    }
+                ]
+            },
+            "id": 59,
+            "text": "Il aurait pu être ennuyé."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 2,
+                            "offset_start": 0,
+                            "ref_id_chain": 21,
+                            "text": "Il",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 176,
+                                "offset_end": 20,
+                                "offset_start": 14,
+                                "text": "ennuyé"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 5,
+                        "offset": {
+                            "end": 21,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": [
+                    {
+                        "token": {
+                            "offset_end": 9,
+                            "offset_start": 3,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "aurait"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 13,
+                            "offset_start": 10,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "été"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 20,
+                            "offset_start": 14,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "ennuyé"
+                        }
+                    }
+                ]
+            },
+            "id": 60,
+            "text": "Il aurait été ennuyé."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 4,
+                        "offset": {
+                            "end": 16,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": [
+                    {
+                        "token": {
+                            "offset_end": 7,
+                            "offset_start": 4,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "ont"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 15,
+                            "offset_start": 8,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "atterit"
+                        }
+                    }
+                ]
+            },
+            "id": 61,
+            "text": "Ils ont atterit."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 2,
+                            "offset_start": 0,
+                            "ref_id_chain": 21,
+                            "text": "Il",
+                            "warning": 1
+                        }
+                    }
+                ],
+                "emotions": [
+                    {
+                        "token": {
+                            "offset_end": 42,
+                            "offset_start": 3,
+                            "text": "était traversé par beaucoup d'émotions.",
+                            "type": "action",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 8,
+                        "offset": {
+                            "end": 42,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": [
+                    {
+                        "token": {
+                            "offset_end": 8,
+                            "offset_start": 3,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "était"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 17,
+                            "offset_start": 9,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "traversé"
+                        }
+                    }
+                ]
+            },
+            "id": 62,
+            "text": "Il était traversé par beaucoup d'émotions."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 117,
+                                "offset_end": 28,
+                                "offset_start": 26,
+                                "text": "pu"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 10,
+                        "offset": {
+                            "end": 39,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": [
+                    {
+                        "token": {
+                            "offset_end": 25,
+                            "offset_start": 19,
+                            "ref_token": [
+                                0,
+                                1
+                            ],
+                            "text": "aurait"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 28,
+                            "offset_start": 26,
+                            "ref_token": [
+                                0,
+                                1
+                            ],
+                            "text": "pu"
+                        }
+                    }
+                ]
+            },
+            "id": 63,
+            "text": "Il se dit que cela aurait pu être pire."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 5,
+                            "offset_start": 0,
+                            "ref_id_chain": 22,
+                            "text": "Éléna",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 172,
+                                "offset_end": 22,
+                                "offset_start": 16,
+                                "text": "manger"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 168,
+                                "offset_end": 15,
+                                "offset_start": 10,
+                                "text": "allée"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 8,
+                        "offset": {
+                            "end": 37,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": [
+                    {
+                        "token": {
+                            "offset_end": 9,
+                            "offset_start": 6,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "est"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 15,
+                            "offset_start": 10,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "allée"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 22,
+                            "offset_start": 16,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "manger"
+                        }
+                    }
+                ]
+            },
+            "id": 64,
+            "text": "Éléna est allée manger au restaurant."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 4,
+                            "offset_start": 0,
+                            "ref_id_chain": 22,
+                            "text": "Elle",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 168,
+                                "offset_end": 7,
+                                "offset_start": 5,
+                                "text": "va"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 7,
+                        "offset": {
+                            "end": 25,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": [
+                    {
+                        "token": {
+                            "offset_end": 7,
+                            "offset_start": 5,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "va"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 13,
+                            "offset_start": 8,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "venir"
+                        }
+                    }
+                ]
+            },
+            "id": 65,
+            "text": "Elle va venir au concert."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 168,
+                                "offset_end": 10,
+                                "offset_start": 8,
+                                "text": "va"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 6,
+                        "offset": {
+                            "end": 25,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 66,
+            "text": "Justine va au restaurant."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 168,
+                                "offset_end": 15,
+                                "offset_start": 11,
+                                "text": "allé"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 7,
+                        "offset": {
+                            "end": 30,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": [
+                    {
+                        "token": {
+                            "offset_end": 10,
+                            "offset_start": 7,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "est"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 15,
+                            "offset_start": 11,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "allé"
+                        }
+                    }
+                ]
+            },
+            "id": 67,
+            "text": "Pierre est allé au restaurant."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 168,
+                                "offset_end": 8,
+                                "offset_start": 6,
+                                "text": "va"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 172,
+                                "offset_end": 15,
+                                "offset_start": 9,
+                                "text": "manger"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 4,
+                        "offset": {
+                            "end": 16,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": [
+                    {
+                        "token": {
+                            "offset_end": 8,
+                            "offset_start": 6,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "va"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 15,
+                            "offset_start": 9,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "manger"
+                        }
+                    }
+                ]
+            },
+            "id": 68,
+            "text": "Daisy va manger."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 4,
+                            "offset_start": 0,
+                            "ref_id_chain": 23,
+                            "text": "Rosy",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 168,
+                                "offset_end": 11,
+                                "offset_start": 5,
+                                "text": "allait"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 6,
+                        "offset": {
+                            "end": 25,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": [
+                    {
+                        "token": {
+                            "offset_end": 11,
+                            "offset_start": 5,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "allait"
+                        }
+                    }
+                ]
+            },
+            "id": 69,
+            "text": "Rosy allait à la piscine."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 168,
+                                "offset_end": 5,
+                                "offset_start": 3,
+                                "text": "va"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 6,
+                        "offset": {
+                            "end": 25,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": [
+                    {
+                        "token": {
+                            "offset_end": 5,
+                            "offset_start": 3,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "va"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 14,
+                            "offset_start": 6,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "composer"
+                        }
+                    }
+                ]
+            },
+            "id": 70,
+            "text": "Il va composer un numéro."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 2,
+                            "offset_start": 0,
+                            "ref_id_chain": 23,
+                            "text": "Il",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 27,
+                            "offset_start": 25,
+                            "ref_id_chain": 23,
+                            "text": "se",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 196,
+                                "offset_end": 41,
+                                "offset_start": 34,
+                                "text": "rigoler"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 184,
+                                "offset_end": 8,
+                                "offset_start": 3,
+                                "text": "vient"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [
+                    {
+                        "token": {
+                            "offset_end": 43,
+                            "offset_start": 25,
+                            "text": "se met à rigoler..",
+                            "type": "action",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 10,
+                        "offset": {
+                            "end": 43,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 71,
+            "text": "Il vient chez Colette et se met à rigoler.."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 2,
+                            "offset_start": 0,
+                            "ref_id_chain": 23,
+                            "text": "Il",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 184,
+                                "offset_end": 8,
+                                "offset_start": 3,
+                                "text": "vient"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 196,
+                                "offset_end": 34,
+                                "offset_start": 27,
+                                "text": "rigoler"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [
+                    {
+                        "token": {
+                            "offset_end": 35,
+                            "offset_start": 3,
+                            "text": "vient chez Colette pour rigoler.",
+                            "type": "action",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 7,
+                        "offset": {
+                            "end": 35,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 72,
+            "text": "Il vient chez Colette pour rigoler."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 2,
+                            "offset_start": 0,
+                            "ref_id_chain": 23,
+                            "text": "Il",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 14,
+                            "offset_start": 12,
+                            "ref_id_chain": 23,
+                            "text": "se",
+                            "warning": 1
+                        }
+                    }
+                ],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 184,
+                                "offset_end": 8,
+                                "offset_start": 3,
+                                "text": "vient"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 199,
+                                "offset_end": 22,
+                                "offset_start": 15,
+                                "text": "pencher"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 9,
+                        "offset": {
+                            "end": 36,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": [
+                    {
+                        "token": {
+                            "offset_end": 8,
+                            "offset_start": 3,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "vient"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 11,
+                            "offset_start": 9,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "de"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 22,
+                            "offset_start": 15,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "pencher"
+                        }
+                    }
+                ]
+            },
+            "id": 73,
+            "text": "Il vient de se pencher dans le vide."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 2,
+                            "offset_start": 0,
+                            "ref_id_chain": 23,
+                            "text": "Il",
+                            "warning": 1
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 13,
+                            "offset_start": 11,
+                            "ref_id_chain": 23,
+                            "text": "se",
+                            "warning": 1
+                        }
+                    }
+                ],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 199,
+                                "offset_end": 21,
+                                "offset_start": 14,
+                                "text": "pencher"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 168,
+                                "offset_end": 5,
+                                "offset_start": 3,
+                                "text": "va"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 9,
+                        "offset": {
+                            "end": 35,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 74,
+            "text": "Il va pour se pencher dans le vide."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 25,
+                            "offset_start": 23,
+                            "ref_id_chain": 23,
+                            "text": "Il",
+                            "warning": 1
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 28,
+                            "offset_start": 26,
+                            "ref_id_chain": 23,
+                            "text": "s'",
+                            "warning": 1
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 48,
+                            "offset_start": 40,
+                            "ref_id_chain": 24,
+                            "text": "rambarde",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 52,
+                            "offset_start": 50,
+                            "ref_id_chain": 23,
+                            "text": "Il",
+                            "warning": 1
+                        }
+                    }
+                ],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 184,
+                                "offset_end": 8,
+                                "offset_start": 3,
+                                "text": "vient"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 169,
+                                "offset_end": 62,
+                                "offset_start": 56,
+                                "text": "sauter"
+                            }
+                        },
+                        {
+                            "token": {
+                                "id_lemma": 168,
+                                "offset_end": 55,
+                                "offset_start": 53,
+                                "text": "va"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 5,
+                        "offset": {
+                            "end": 22,
+                            "start": 0
+                        },
+                        "warning": 0
+                    },
+                    {
+                        "id": 1,
+                        "num_words": 7,
+                        "offset": {
+                            "end": 49,
+                            "start": 23
+                        },
+                        "warning": 0
+                    },
+                    {
+                        "id": 2,
+                        "num_words": 7,
+                        "offset": {
+                            "end": 76,
+                            "start": 50
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": [
+                    {
+                        "token": {
+                            "offset_end": 8,
+                            "offset_start": 3,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "vient"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 11,
+                            "offset_start": 9,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "de"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 21,
+                            "offset_start": 12,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "traverser"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 55,
+                            "offset_start": 53,
+                            "ref_token": [
+                                2,
+                                0
+                            ],
+                            "text": "va"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 62,
+                            "offset_start": 56,
+                            "ref_token": [
+                                2,
+                                0
+                            ],
+                            "text": "sauter"
+                        }
+                    }
+                ]
+            },
+            "id": 75,
+            "text": "Il vient de traverser. Il s'appuie à la rambarde. Il va sauter dans le vide."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 3,
+                            "offset_start": 0,
+                            "ref_id_chain": 25,
+                            "text": "Ils",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "duplication": [
+                    [
+                        {
+                            "token": {
+                                "id_lemma": 169,
+                                "offset_end": 13,
+                                "offset_start": 4,
+                                "text": "sauteront"
+                            }
+                        }
+                    ]
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 13,
+                        "offset": {
+                            "end": 71,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": [
+                    {
+                        "token": {
+                            "offset_end": 13,
+                            "offset_start": 4,
+                            "ref_token": [
+                                0,
+                                0
+                            ],
+                            "text": "sauteront"
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 37,
+                            "offset_start": 31,
+                            "ref_token": [
+                                0,
+                                1
+                            ],
+                            "text": "seront"
+                        }
+                    }
+                ]
+            },
+            "id": 76,
+            "text": "Ils sauteront à pieds joint et seront capables de danser sans problème."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 35,
+                            "offset_start": 31,
+                            "ref_id_chain": 25,
+                            "text": "leur",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 52,
+                            "offset_start": 50,
+                            "ref_id_chain": 24,
+                            "text": "la",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 13,
+                        "offset": {
+                            "end": 60,
+                            "start": 0
+                        },
+                        "warning": 0
+                    },
+                    {
+                        "id": 1,
+                        "num_words": 6,
+                        "offset": {
+                            "end": 89,
+                            "start": 61
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 77,
+            "text": "La grande prêtresse du plaisir leur fait signe de la suivre. Vue sur le paysage enchanté."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 4,
+                        "offset": {
+                            "end": 26,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [
+                    {
+                        "token": {
+                            "offset_end": 4,
+                            "offset_start": 0,
+                            "text": "Nous"
+                        }
+                    }
+                ],
+                "tense_notpresent": []
+            },
+            "id": 78,
+            "text": "Nous mangerions un risotto"
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 14,
+                        "offset": {
+                            "end": 82,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 79,
+            "text": "Six prêtresses du plaisir vêtues d'une robe blanche décolletées chantent ensemble."
+        },
+        {
+            "features": {
+                "cinema": [],
+                "coref": [
+                    {
+                        "token": {
+                            "offset_end": 7,
+                            "offset_start": 4,
+                            "ref_id_chain": 26,
+                            "text": "île",
+                            "warning": 0
+                        }
+                    },
+                    {
+                        "token": {
+                            "offset_end": 36,
+                            "offset_start": 34,
+                            "ref_id_chain": 26,
+                            "text": "se",
+                            "warning": 0
+                        }
+                    }
+                ],
+                "emotions": [],
+                "length": [
+                    {
+                        "id": 0,
+                        "num_words": 14,
+                        "offset": {
+                            "end": 55,
+                            "start": 0
+                        },
+                        "warning": 0
+                    }
+                ],
+                "offensive": [],
+                "person": [],
+                "tense_notpresent": []
+            },
+            "id": 80,
+            "text": "Une île, entourée d'un halo rose, se dresse devant eux."
+        }
+    ]
+}
